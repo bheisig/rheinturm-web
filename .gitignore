@@ -1,0 +1,8 @@
+*~
+*.bak
+*.old
+*.tmp
+.~lock.*
+*.autosave
+*.sublime-project
+*.sublime-workspace

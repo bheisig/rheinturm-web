@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Rheinturm Digital Clock</title>
+
+        <meta name="description" content="This website shows you the current local time. It's based on the sculpture Lichtzeitpegel mounted on the Rheinturm which is located in Düsseldorf, Germany.">
+        <meta name="keywords" content="Rheinturm, Düsseldorf, Lichtzeitpegel, clock">
+        <meta name="author" content="Benjamin Heisig">
+        <meta name="robots" content="index, follow">
+
+        <!--<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">-->
+        <meta name="dc.creator" content="Benjamin Heisig">
+        <meta name="dc.description" content="This website shows you the current local time. It's based on the sculpture Lichtzeitpegel mounted on the Rheinturm which is located in Düsseldorf, Germany.">
+        <meta name="dc.language" content="en-US">
+        <meta name="dc.license" content="Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License">
+        <meta name="dc.title" content="Rheinturm Digital Clock">
+        <meta name="dc.type" content="Image">
+
+        <meta property="og:title" content="Rheinturm Digital Clock">
+        <meta property="og:description" content="This website shows you the current local time. It's based on the sculpture Lichtzeitpegel mounted on the Rheinturm which is located in Düsseldorf, Germany.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://benjamin.heisig.name/rheinturm/">
+        <meta property="og:image" content="https://benjamin.heisig.name/media/benjamin_heisig_2011_web.jpg">
+        <meta property="og:image:url" content="http://benjamin.heisig.name/rheinturm/img/rheinturm.jpg">
+        <meta property="og:image:secure_url" content="https://benjamin.heisig.name/rheinturm/img/rheinturm.jpg">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:locale" content="en_US">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Rheinturm Digital Clock">
+        <meta name="twitter:description" content="This website shows you the current local time. It's based on the sculpture Lichtzeitpegel mounted on the Rheinturm which is located in Düsseldorf, Germany.">
+        <meta name="twitter:image" content="https://benjamin.heisig.name/rheinturm/img/rheinturm.jpg">
+        <meta name="twitter:site:id" content="@bheisig">
+        <meta name="twitter:creator:id" content="@bheisig">
+        <meta name="twitter:domain" content="benjamin.heisig.name">
+
+        <link rel="image_src" href="https://benjamin.heisig.name/rheinturm/img/rheinturm.jpg">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/b.min.css">
+        <link rel="stylesheet" href="css/append.css">
+    </head>
+
+    <body>
+        <main>
+            <a href="#" data-toggle="modal" data-target="#info" title="Show info">
+                <svg
+                    id="rheinturm"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    xmlns:cc="http://creativecommons.org/ns#"
+                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:svg="http://www.w3.org/2000/svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    height="100%"
+                    viewBox="0 0 1280 853"
+                    version="1.1">
+                    <metadata id="metadata">
+                        <rdf:RDF>
+                            <cc:Work rdf:about="">
+                                <dc:format>image/svg+xml</dc:format>
+                                <dc:type
+                                rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                                <dc:title>Rheinturm</dc:title>
+                            </cc:Work>
+                        </rdf:RDF>
+                    </metadata>
+
+                    <image
+                       id="rheinturm_background"
+                       xlink:href="img/rheinturm.jpg"
+                       width="100%"
+                       height="100%" />
+
+                    <circle class="led" id="hours-20" title="20th hour" cx="315" cy="325" r="4" fill="white" />
+                    <circle class="led" id="hours-10" title="10th hour" cx="315" cy="335" r="4" fill="white" />
+
+                    <circle class="led" id="hours-9" title="9th hour" cx="315" cy="350" r="4" fill="white" />
+                    <circle class="led" id="hours-8" title="8th hour" cx="315" cy="360" r="4" fill="white" />
+                    <circle class="led" id="hours-7" title="7th hour" cx="315" cy="370" r="4" fill="white" />
+                    <circle class="led" id="hours-6" title="6th hour" cx="315" cy="380" r="4" fill="white" />
+                    <circle class="led" id="hours-5" title="5th hour" cx="315" cy="390" r="4" fill="white" />
+                    <circle class="led" id="hours-4" title="4th hour" cx="315" cy="400" r="4" fill="white" />
+                    <circle class="led" id="hours-3" title="3rd hour" cx="315" cy="410" r="4" fill="white" />
+                    <circle class="led" id="hours-2" title="2nd hour" cx="315" cy="420" r="4" fill="white" />
+                    <circle class="led" id="hours-1" title="1st hour" cx="315" cy="430" r="4" fill="white" />
+
+                    <circle class="led" id="minutes-50" title="50th minute" cx="315" cy="450" r="4" fill="white" />
+                    <circle class="led" id="minutes-40" title="40th minute" cx="315" cy="460" r="4" fill="white" />
+                    <circle class="led" id="minutes-30" title="30th minute" cx="315" cy="470" r="4" fill="white" />
+                    <circle class="led" id="minutes-20" title="20th minute" cx="315" cy="480" r="4" fill="white" />
+                    <circle class="led" id="minutes-10" title="10th minute" cx="315" cy="490" r="4" fill="white" />
+
+                    <circle class="led" id="minutes-9" title="9th minute" cx="315" cy="505" r="4" fill="white" />
+                    <circle class="led" id="minutes-8" title="8th minute" cx="315" cy="515" r="4" fill="white" />
+                    <circle class="led" id="minutes-7" title="7th minute" cx="315" cy="525" r="4" fill="white" />
+                    <circle class="led" id="minutes-6" title="6th minute" cx="315" cy="535" r="4" fill="white" />
+                    <circle class="led" id="minutes-5" title="5th minute" cx="315" cy="545" r="4" fill="white" />
+                    <circle class="led" id="minutes-4" title="4th minute" cx="315" cy="555" r="4" fill="white" />
+                    <circle class="led" id="minutes-3" title="3rd minute" cx="315" cy="565" r="4" fill="white" />
+                    <circle class="led" id="minutes-2" title="2nd minute" cx="315" cy="575" r="4" fill="white" />
+                    <circle class="led" id="minutes-1" title="1st minute" cx="315" cy="585" r="4" fill="white" />
+
+                    <circle class="led" id="seconds-50" title="50th second" cx="315" cy="605" r="4" fill="white" />
+                    <circle class="led" id="seconds-40" title="40th second" cx="315" cy="615" r="4" fill="white" />
+                    <circle class="led" id="seconds-30" title="30th second" cx="315" cy="625" r="4" fill="white" />
+                    <circle class="led" id="seconds-20" title="20th second" cx="315" cy="635" r="4" fill="white" />
+                    <circle class="led" id="seconds-10" title="10th second" cx="315" cy="645" r="4" fill="white" />
+
+                    <circle class="led" id="seconds-9" title="9th second" cx="315" cy="660" r="4" fill="white" />
+                    <circle class="led" id="seconds-8" title="8th second" cx="315" cy="670" r="4" fill="white" />
+                    <circle class="led" id="seconds-7" title="7th second" cx="315" cy="680" r="4" fill="white" />
+                    <circle class="led" id="seconds-6" title="6th second" cx="315" cy="690" r="4" fill="white" />
+                    <circle class="led" id="seconds-5" title="5th second" cx="315" cy="700" r="4" fill="white" />
+                    <circle class="led" id="seconds-4" title="4th second" cx="315" cy="710" r="4" fill="white" />
+                    <circle class="led" id="seconds-3" title="3rd second" cx="315" cy="720" r="4" fill="white" />
+                    <circle class="led" id="seconds-2" title="2nd second" cx="315" cy="730" r="4" fill="white" />
+                    <circle class="led" id="seconds-1" title="1st second" cx="315" cy="740" r="4" fill="white" />
+                </svg>
+            </a>
+        </main>
+
+        <div class="modal fade" id="info" tabindex="-1" role="dialog" aria-labelledby="infoLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h1 class="modal-title" id="infoLabel">Rheinturm Digital Clock</h1>
+                    </div>
+                    <div class="modal-body">
+                        <p>This website shows you the current local time. It's based on the sculpture <em>Lichtzeitpegel</em> mounted on the <a href="https://en.wikipedia.org/wiki/Rheinturm" title="Go to external website">Rheinturm</a> which is located in Düsseldorf, Germany.</p>
+
+                        <p></p>
+
+                        <p>The picture was shot by <a href="https://www.flickr.com/photos/fred_madison/6371151793" title="Go to external website">Matthias Neugebauer</a> and is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/" title="Go to external website">CC BY-NC 2.0</a>.</p>
+
+                        <h2>Who I am and why I built this site</h2>
+
+                        <p>I'm <a href="https://benjamin.heisig.name/" title="Go to external website">Benjamin Heisig</a> and I live in the beautiful city of Düsseldorf. To share my love for the city and especially for the Rheinturm sculpture I created this little site.</p>
+
+                        <p>The source code behind this site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="Go to external website" rel="license">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License</a> and is <a href="https://github.com/bheisig/rheinturm-web" title="Go to external website">available on Github.</a> There's also the possibility to report issues.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.modal -->
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/rheinturm.js"></script>
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//benjamin.heisig.name/piwik/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', 2]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="//benjamin.heisig.name/piwik/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+
+        <script type="text/javascript">
+            $(function() {
+                new Rheinturm().start();
+            });
+        </script>
+    </body>
+</html>
