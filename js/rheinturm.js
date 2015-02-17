@@ -10,10 +10,9 @@ Rheinturm = function () {
     };
 
     this.start = function () {
-        setTimeout(function () {
+        setInterval(function () {
             that.render();
-            that.start();
-        }, 50);
+        }, 200);
 
         return this;
     };
